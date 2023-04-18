@@ -1,0 +1,35 @@
+.artista {
+    display: flex;
+    align-items: first baseline;
+    gap: 4em;
+    margin-top: 6em;
+}
+
+.foto_trabalho-computador {
+    width: 400px;
+    height: 300px;
+}
+
+.foto_trabalho-tablet {
+    width: 200px;
+    height: 300px;
+}
+
+.titulo_artista {
+    width: 30%;
+
+}
+.como_artista {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--cor-fonte);
+    margin-bottom: 1em;
+}
+
+.artista_descricao-trabalho {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--cor-fonte);
+}
