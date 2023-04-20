@@ -1,0 +1,37 @@
+.design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.sites {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.titulo_design {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--cor-fonte);
+}
+
+.descricao_design {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--cor-fonte);
+}
+
+.estudo {
+    font-family: var(--fonte-descricao);
+    color: var(--cor-fonte);
+}
+
+.foto_oculos, .foto_roupas {
+    height: 500px;
+}

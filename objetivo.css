@@ -1,0 +1,28 @@
+.objetivo {
+    display: flex;
+    gap: 3em;
+    margin-top: 8em;
+}
+
+.foto_modelo {
+    width: 600px;
+}
+
+.container_objetivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+}
+
+.descricao_objetivo {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--cor-fonte);
+    text-align: left;
+}
+
+.celular {
+    margin-top: 10em;
+}
