@@ -1,0 +1,29 @@
+.livros {
+    margin-top: 6em;
+}
+
+.fundo {
+    position: relative;
+}
+
+.imagem_livro {
+    width: 100%;
+    height: 100%;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    position: absolute;
+    left: 800px;
+    bottom: 300px;
+    margin-right: 20px;
+}
+
+.frase_descricao, .autor {
+    font-family: var(--fonte-descricao);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}

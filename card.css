@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    gap: 3em;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.titulo_midias {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--cor-fonte);
+}
+
+.descricao_midias {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--fonte-descricao);
+}
+
+.card_imagem {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}

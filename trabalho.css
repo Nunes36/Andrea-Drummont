@@ -1,0 +1,50 @@
+.trabalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    gap: 3.5em;
+}
+
+.container_trabalho {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.titulo_trabalho {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--cor-fonte);
+}
+
+.trabalho_endereco, .trabalho_telefone, .trabalho_email {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
+
+.container_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem_trabalho {
+    width: 600px;
+    height: 700px;
+}
+
+label {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--cor-fonte);
+}

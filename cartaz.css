@@ -1,0 +1,50 @@
+.cartazes {
+    display: flex;
+    justify-content: end;
+}
+
+.container_cartazes {
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 90px 60px 0 0 ;
+    width: 350px;
+}
+
+.titulo_cartaz {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--cor-fonte);
+}
+
+.descricao_cartaz {
+    font-family: var(--fonte-descricao);
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--cor-fonte);
+    text-align: start;
+}
+
+.tacas {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+.taca {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imagem_taca {
+    height: 300px;
+}
+
+.cartaz {
+    margin-right: 0;
+}
+
+.imagem_cartaz {
+    height: 800px;
+}
