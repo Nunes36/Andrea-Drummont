@@ -56,4 +56,12 @@ label {
         flex-direction: column;
         margin: 0 auto;
     }
+
+    .container {
+        width: 100%;
+    }
+
+    .imagem_trabalho {
+        width: 300px;
+    }
 }

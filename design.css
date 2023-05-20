@@ -32,6 +32,10 @@
     color: var(--cor-fonte);
 }
 
+.taca, .cartaz {
+    width: 300px;
+}
+
 .foto_oculos, .foto_roupas {
     height: 500px;
 }

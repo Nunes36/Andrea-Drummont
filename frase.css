@@ -46,4 +46,9 @@
         color: white;
         text-align: center;
     }
+
+    .imagem_livro {
+        width: 400px;
+        height: 100%;
+    }
 }

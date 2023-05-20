@@ -34,4 +34,12 @@
         flex-direction: column;
         margin: 0 auto;
     }
+
+    .foto_modelo {
+        width: 100%;
+    }
+
+    .container_objetivo {
+        width: 100%;
+    }
 }
