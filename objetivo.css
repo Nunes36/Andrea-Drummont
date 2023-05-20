@@ -26,3 +26,12 @@
 .celular {
     margin-top: 10em;
 }
+
+
+@media screen and (max-width: 600px) {
+    .objetivo {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

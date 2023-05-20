@@ -16,3 +16,9 @@ body {
     background: #efe9e4;
 }
 
+@media screen  and (max-width: 600px) {
+    body {
+      display:flex;
+      flex-direction: column;
+    }
+  }

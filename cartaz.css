@@ -48,3 +48,14 @@
 .imagem_cartaz {
     height: 800px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .cartazes, .tacas, .cartaz {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+

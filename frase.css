@@ -27,3 +27,23 @@
     color: white;
     text-align: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    .frase {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 auto;
+         position: absolute;
+        left: 200px;
+        bottom: 80px;
+        margin-right: 20px;
+    }
+
+    .frase_descricao, .autor {
+        font-family: var(--fonte-descricao);
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+}

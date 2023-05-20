@@ -30,3 +30,12 @@
     justify-content: center;
     gap: 1.5em;
 }
+
+
+@media screen and (max-width: 600px) {
+    .card, .card_imagem, .texto {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
