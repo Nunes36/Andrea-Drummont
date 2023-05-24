@@ -23,7 +23,7 @@ function animeScroll () {
             element.classList.add(animationClass);
         }else {
             element.classList.remove(animationClass);
-        }
+        } 
     })
 }
 
