@@ -57,7 +57,7 @@
     }
 
     .foto_andrea {
-        width: 600px;
+        width: 100vw;
     }
 
     .descricao {
@@ -67,5 +67,17 @@
     .logo {
         display: flex;
         justify-self: end;
+    }
+    
+    .titulo {
+        font-size: 40px;
+    }
+
+    .texto_profissao {
+        font-size: 20px;
+    }
+
+    .texto_descricao {
+        font-size: 15px;
     }
 }

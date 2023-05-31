@@ -58,18 +58,35 @@
     .parceiros, .formacao {
         display: flex; 
         flex-direction: column;
-        margin: 0 auto;
-        width: 100%;
+        margin: 0 ;
+        width: 300px;
     }
 
     .imagem_formacao {
-        width: 600px;
+        width: 100vw;
     }
 
     .empresas_parceiras {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 300px;
     }
-  
+
+    .formacao_escolas {
+        width: 250px;
+        margin:  0;
+    }
+
+    .apredizagem {
+        font-size: 40px;
+    }
+
+    .cursos_formacao-escola {
+        font-size: 15px;
+    }
+    
+    .empresas {
+        font-size: 40px;
+    }
 }

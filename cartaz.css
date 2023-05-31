@@ -57,6 +57,31 @@
     .cartazes, .tacas, .cartaz {
         display: flex; 
         flex-direction: column;
+        margin: 0 ;
+        gap: 2rem;
+        width: 300px;
+    }
+
+    .container_cartazes {
+        width: 300px;
+        gap: 2rem;
+    }
+
+    .titulo_cartaz {
+        font-size: 40px;
+    }
+
+    .descricao_cartaz {
+        font-size: 15px;
+    }
+
+    .imagem_taca {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .imagem_cartaz {
+        width: 90vw;
         margin: 0 auto;
     }
 }

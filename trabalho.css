@@ -42,7 +42,7 @@
     height: 700px;
 }
 
-label {
+span {
     font-family: var(--fonte-descricao);
     font-weight: 300;
     font-size: 30px;
@@ -51,17 +51,40 @@ label {
 
 
 @media screen and (max-width: 600px) {
+    
     .trabalho {
         display: flex; 
         flex-direction: column;
-        margin: 0 auto;
+        margin: 0 ;
     }
 
     .container {
-        width: 100%;
+        width: 300px;
+        margin: 0;
     }
 
     .imagem_trabalho {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .titulo_trabalho {
+        font-size: 40px;
+    }
+
+    .trabalho_endereco .trabalho_telefone .trabalho_email {
+        font-size: 15px;
+    }
+
+    .container_logo {
         width: 300px;
+    }
+
+    .logo_footer {
+        width: 40px;
+    }
+
+    span {
+        font-size: 20px;
     }
 }

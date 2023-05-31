@@ -14,9 +14,10 @@
 
 body {
     background: #efe9e4;
+    overflow-x: hidden;
 }
 
-[data-anime] {
+/*[data-anime] {
   opacity: 0;
   transition: .3s;
 }
@@ -40,12 +41,12 @@ body {
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
-}
+}*/
 
 @media screen  and (max-width: 600px) {
     body {
       display:flex;
       flex-direction: column;
-
     }
+
   }
